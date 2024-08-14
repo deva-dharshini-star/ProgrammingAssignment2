@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Caching the inverse of matrix
+## makeCacheMatrix is used to get the inverse of the matrix
 
-## Write a short comment describing this function
+## Library (MASS) is used here to calculate the inverse of squared and non-squared matrices
 
 library(MASS)
 makeCacheMatrix <- function(x = matrix()) {
@@ -20,7 +20,7 @@ list(set=set, get=get, setinv=setinv, getinv=getinv)
 }
 
 
-## Write a short comment describing this function
+## cacheSolve is used to get the cache data
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
